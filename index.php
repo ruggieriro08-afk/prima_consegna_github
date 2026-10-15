@@ -8,6 +8,8 @@ echo "L'altezza inserita è " . $altezza . "<br><br>";
 
 $perimetro =($base+$altezza)*2;
 $area = $base * $altezza;
+$diagonale = sqrt(pow($base,2)+pow($altezza,2));
 
-echo "Il perimetro è " . $perimetro . "<br>"
-echo "L'area è " . $area 
+echo "Il perimetro è " . $perimetro . "<br>";
+echo "L'area è " . $area . "<br>";
+echo "La diagonale è " . $diagonale;
